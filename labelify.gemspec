@@ -1,9 +1,8 @@
 $:.push File.expand_path("../lib", __FILE__)
-require "labelify/version"
 
 Gem::Specification.new do |s|
   s.name        = "labelify"
-  s.version     = Labelify::VERSION
+  s.version     = "0.0.1"
   s.authors     = ["Remco van 't Veer"]
   s.email       = ""
   s.homepage    = "https://github.com/moretea/labelify"
