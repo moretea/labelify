@@ -313,3 +313,5 @@ private
   end
   module_function :errors_on, :empty_container
 end
+
+ActionController::Base.helper Labelify
